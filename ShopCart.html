@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<head>
+<title>Shopping Cart</title>
+<script src="AddToCart.js" language="javascript" type="text/javascript">
+</script>
+
+
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+
+</head>
+
+<tr>
+ <th>Shopping Cart</th>
+
+</tr>
+<table id = 'SC'>
+
+<tr> <td>Product List </td> <td>Price</td></tr>
+
+<tr> <td></td> <td></td></tr>
+<tr> <td></td> <td></td></tr>
+<tr> <td></td> <td></td></tr>
+<tr> <td></td> <td></td></tr>
+
+</table>
+<br><br>
+
+<tr>
+	
+	<button onClick="addToCart('Pepsi',3.00)">Pepsi $1.30</button>
+	<button onClick="addToCart('Bread',3.75)">Bread $3.75</button>
+	<button onClick="addToCart('Milk',2.50)">Milk $2.50</button>
+	<button onClick="addToCart('Book',5.00)">Book $5.00</button>
+
+	<br>
+	<table id="shopCart">
+	<tr id="Total">
+	<td align="left">Total :</td>
+	<td align="left"><span id="Sum" >0</span></td>
+
+
+
+
+</tr>
+
+
+</body>
+</html>
